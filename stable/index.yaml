@@ -52,4 +52,22 @@ entries:
     urls:
     - https://harshaghanta.github.io/Helm3/stable/charts/tenant_common-0.1.0.tgz
     version: 0.1.0
-generated: "2023-09-10T23:05:00.605808539+05:30"
+  wrapperchart:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-09-10T23:40:05.159767492+05:30"
+    dependencies:
+    - name: tenant_common
+      repository: file://charts/tenant_common
+      version: 0.1.0
+    - name: nginx
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 15.2.1
+    description: A Helm chart for Kubernetes
+    digest: 32cefbf8e0fb778aa7a004b747e4c939f0b2c1cf81ded1fcd4b79ce4eee28bcd
+    name: wrapperchart
+    type: application
+    urls:
+    - https://harshaghanta.github.io/myhelmrepo/stable/wrapperchart/wrapperchart-0.1.0.tgz
+    version: 0.1.0
+generated: "2023-09-10T23:40:05.15669606+05:30"
