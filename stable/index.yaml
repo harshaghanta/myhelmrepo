@@ -68,6 +68,6 @@ entries:
     name: wrapperchart
     type: application
     urls:
-    - https://harshaghanta.github.io/myhelmrepo/stable/wrapperchart/wrapperchart-0.1.0.tgz
+    - https://harshaghanta.github.io/myhelmrepo/stable/wrapperchart-0.1.0.tgz
     version: 0.1.0
 generated: "2023-09-10T23:40:05.15669606+05:30"
